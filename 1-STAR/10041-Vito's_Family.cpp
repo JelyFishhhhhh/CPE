@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>        // if cannot include? write a simple bubble sort to alternate it
+#include <algorithm>        // if cannot include ? write a simple bubble sort to alternate it
 using namespace std;
 
 #define fastio ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)

@@ -8,6 +8,22 @@ using namespace std;
 int main(){
 
     AC
+    ll s, d;
+    while(cin>> s>> d){
 
-    
+        while(true){
+
+            d-= s;
+            if(d<= 0){
+
+                cout<< s<< '\n';
+                break;
+            }
+            else{
+
+                s++;
+            }
+        }
+    }
+
 }
